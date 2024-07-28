@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">>
+        <TextView
+            android:text="Đăng nhập"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_span="3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            ></TextView>
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:weightSum="3">
+        <TextView
+            android:text="Username: "
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_width="0dp">
+        </TextView>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:hint="nhap username">
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:weightSum="3">
+        <TextView
+            android:text="Password: "
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_width="0dp">
+        </TextView>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:hint="nhap password">
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_margin="5dp">
+        <Button
+            android:text="OK"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            ></Button>
+        <Button
+            android:text="HỦY"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"></Button>
+        <Button
+            android:text="QUÊN PASS"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"></Button>
+    </TableRow>
+</TableLayout>
